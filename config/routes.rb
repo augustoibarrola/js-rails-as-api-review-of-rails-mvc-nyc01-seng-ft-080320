@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # Add route from Readme
+  get '/birds' => 'birds#index'
 end
+
+//EXPLANATION any visitors to /birds will be redirected to the birds controller index axction (birds#index)
